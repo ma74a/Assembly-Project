@@ -1,14 +1,10 @@
 
 ;*******************************************************************************************************************
-;                                              Snake Game By                                                       *
-;                                                 HERO-DAI                                                         *
+;                                              Snake Game                                                          *
+;                                                                                                                  *
 ;*******************************************************************************************************************
 
-;code is not well-commented, sorry about that, I'll try to comment it nice and well, but can't make any
-;promises, Also, this code writes directly into the video memory instead of int 21H (21H is slow) except
-;at some certain points (like displaying scores and the intro)
 
-;and next time someone tells you to not use goto, ask them to code in assembly without goto... :P
 
 left equ 0
 top equ 2
